@@ -32,7 +32,7 @@ useEffect(() => {fetchUserInformation()}, []);
           <img src={userInfo.avatar_url} />
         </div>
         <div className="user-content">
-          <h3>{userInfo?.name}</h3>
+          <h3>{userInfo.name}</h3>
          
         </div>
       </div>
