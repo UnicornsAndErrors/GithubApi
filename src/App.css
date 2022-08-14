@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
   }
+  
+  .container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+  }
+  
+
+.btn1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem; 
+    padding-right: 15rem;
+    padding-left: 15rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    background-color: rgb(115, 115, 157);
+    border-radius: 1rem;
+  
+    color: #fff;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn2 {
+  background: rgb(115, 115, 157);
+  color: #f5f5f5;
+  border-radius: 7px;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+.input1{
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    padding-right: 21rem;
+    outline: none;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+.search1 {
+    background-color: #f5f5f5;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+  } 
+
+  a{
+    text-decoration: none;
   }
-  to {
-    transform: rotate(360deg);
+   
+
+
+.user-information {
+    background: #333;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+  } 
+  .user-information .image {
+    width: 30%;
+    
   }
-}
+  .user-information .image img {
+    width: 5rem;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .user-content {
+    padding: 10px;
+  } 
+  
+  .user-repo {
+    background-color: #f5f5f5;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+ 
+  .repo a {
+    color: rgb(115, 115, 157);
+  }
+
+ .user .image {
+    width: 20%;
+  }
+    .user .image img {
+    width: 100%;
+    border-radius: 10%;
+  }
+ 
+  
+ 
+ 
+  
+  
