@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
   const User = ({ user }) => {
-  const { avatar_url, login, id } = user;
+  const { avatar_url, login } = user;
   return (
     <div className="user">
       <div className="image">
